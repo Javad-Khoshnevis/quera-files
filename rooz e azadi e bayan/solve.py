@@ -1,7 +1,11 @@
 print ("\033c") #console ro clear mikone !!!!
 try:
     k = int(input("'K' Ra Vared Konid :"))
-except NameError:
+except ValueError:
+    print("Lotfan ADAD Vared Konid!")
+except NameError :
+    print("Lotfan ADAD Vared Konid!")
+except SyntaxError :
     print("Lotfan ADAD Vared Konid!")
 else:    
     if k >= 1 and k <= 100 :
